@@ -1,0 +1,16 @@
+This is a PHP library for RSA-like key generation, encryption and decryption of
+a string message.
+
+This software is heavily based on the code written by Mishu Zvancu, that can 
+be found in the following URL:
+
+ http://goo.gl/owhBU
+
+All the information about RSA was taken from:
+
+ http://en.wikipedia.org/wiki/Rsa
+
+It aims to be compatible with the jQuery plugin jCryption, by Daniel 
+Griesseri that can be found in:
+
+ http://www.jcryption.org/

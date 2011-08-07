@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Crypt_RSA2</name>
+ <channel>pear.php.net</channel>
+ <summary>Provides RSA-like key generation, encryption and 
+    decryption</summary>
+ <description>This is Crypt_RSA rewritten from scratch for PHP 5+.  
+    It relies only in the GMP extension, so the source code is clearer and 
+    lighter. Also, RSA_Crypt2 aims to be fully compatible with jCryption, a 
+    jQuery plugin which sums up as a great javascript frontend.</description>
+ <lead>
+  <name>Igor Feghali</name>
+  <user>ifeghali</user>
+  <email>ifeghali@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-08-06</date>
+ <time>18:17:41</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>
+Initial release
+ </notes>
+ <contents>
+  <dir baseinstalldir="Crypt" name="/">
+   <dir name="examples">
+    <file name="basics.php" role="doc" />
+    <file name="custom-keys.php" role="doc" />
+    <file name="key-generation.php" role="doc" />
+   </dir> <!-- /examples -->
+   <dir name="RSA2">
+    <file name="Exception.php" role="php" />
+   </dir> <!-- /RSA2 -->
+   <dir name="tests">
+    <file name="AllTests.php" role="test" />
+    <file name="lipsum-decrypted.txt" role="test" />
+    <file name="lipsum-encrypted.txt" role="test" />
+    <file name="LipsumTest.php" role="test" />
+   </dir> <!-- /tests -->
+   <file name="package.xml.tmp" role="data" />
+   <file name="RSA2.php" role="php" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.7.0</min>
+   </pearinstaller>
+   <extension>
+    <name>gmp</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-08-06</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>
+Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>
