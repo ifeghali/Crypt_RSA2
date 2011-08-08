@@ -364,7 +364,7 @@ class Crypt_RSA2
         for (
             $n = $this->_modulus;
             gmp_strval($n = gmp_div($n, '0x10000'));
-            $j++;
+            $j++
         );
 
         return $j*2;
