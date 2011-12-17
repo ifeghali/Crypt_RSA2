@@ -1,3 +1,18 @@
+WARNING
+=======
+
+The development of this software is abandoned since it is defective by design.
+
+For more information about why this software is not secure, please take a look at
+the following pages:
+
+ http://www.securityfocus.com/archive/1/520683
+ http://old.nabble.com/Crypt_RSA2-td32214855.html
+
+
+ABOUT
+=====
+
 This is a PHP library for RSA-like key generation, encryption and decryption of
 a string message.
 
